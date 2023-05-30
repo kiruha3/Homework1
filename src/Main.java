@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
        //task1();
-        task5();
+        task6();
     }
 
     public static void task1 () {
@@ -75,6 +75,15 @@ public class Main {
         System.out.println("frog_3 -> " + frog);
         frog = frog + 4 ;
         System.out.println("frog_4 -> " + frog);
+    }
+    public static void task6 () {
+        System.out.println("Задача 5");
+        var weightFirstFiter = 78.2;
+        var weightSecondFiter = 82.7;
+        var sumTwoFiters = weightFirstFiter + weightSecondFiter;
+        var differenceFiters = weightSecondFiter - weightFirstFiter;
+        System.out.println("Общий вес 2 бойцов -> " + sumTwoFiters);
+        System.out.println("Разница в весе бойцов -> " + differenceFiters);
     }
 
 }
