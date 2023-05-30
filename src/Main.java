@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
        //task1();
-        task6();
+        task7();
     }
 
     public static void task1 () {
@@ -77,7 +77,7 @@ public class Main {
         System.out.println("frog_4 -> " + frog);
     }
     public static void task6 () {
-        System.out.println("Задача 5");
+        System.out.println("Задача 6");
         var weightFirstFiter = 78.2;
         var weightSecondFiter = 82.7;
         var sumTwoFiters = weightFirstFiter + weightSecondFiter;
@@ -85,6 +85,15 @@ public class Main {
         System.out.println("Общий вес 2 бойцов -> " + sumTwoFiters);
         System.out.println("Разница в весе бойцов -> " + differenceFiters);
 
+    }
+    public static void task7 () {
+        System.out.println("Задача 7");
+        var weightFirstFiter = 78.2;
+        var weightSecondFiter = 82.7;
+        var lowToBig = weightSecondFiter - weightFirstFiter;
+        var modFiters = weightSecondFiter % weightFirstFiter;
+        System.out.println("Вычитание из большего веса меньшего -> " + lowToBig);
+        System.out.println("С помощь функции остаток от деления -> " + modFiters);
     }
 
 }
