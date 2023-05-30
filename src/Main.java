@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
        //task1();
-        task3();
+        task4();
     }
 
     public static void task1 () {
@@ -55,7 +55,15 @@ public class Main {
         System.out.println("cat -> " + cat);
         System.out.println("paper -> " + paper);
     }
-
+    public static void task4 () {
+        System.out.println("Задача 4");
+        var friend = 19;
+        System.out.println("friend_1 -> " + friend);
+        friend = friend + 2 ;
+        System.out.println("friend_2 -> " + friend);
+        friend = friend / 7 ;
+        System.out.println("friend_3 -> " + friend);
+    }
 
 
 }
