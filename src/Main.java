@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
        //task1();
-        task7();
+        task8();
     }
 
     public static void task1 () {
@@ -95,5 +95,20 @@ public class Main {
         System.out.println("Вычитание из большего веса меньшего -> " + lowToBig);
         System.out.println("С помощь функции остаток от деления -> " + modFiters);
     }
+    public static void task8 () {
+        System.out.println("Задача 8.1");
+        var hours = 640;
+        var hoursPerson = 8;
+        var countEmploer = hours / hoursPerson ;
+        System.out.println("Рабочих часов на всех сотрудников -> " + hours);
+        System.out.println("Рабочих часов на сотрудника -> " + hoursPerson);
+        System.out.println("Всего работников в компании — " + countEmploer +" человек");
+        System.out.println("Задача 8.2");
+        var moreCountEmploer = countEmploer +94;
+        System.out.println("Если работников в компании — " + moreCountEmploer +" человек");
+        var hoursPersonMore = hours / moreCountEmploer;
+        System.out.println("Если в компании работает "+ moreCountEmploer +" человек, то всего "
+                +  hoursPersonMore +" часов работы может быть поделено между сотрудниками");
 
+    }
 }
