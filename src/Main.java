@@ -84,6 +84,7 @@ public class Main {
         var differenceFiters = weightSecondFiter - weightFirstFiter;
         System.out.println("Общий вес 2 бойцов -> " + sumTwoFiters);
         System.out.println("Разница в весе бойцов -> " + differenceFiters);
+
     }
 
 }
