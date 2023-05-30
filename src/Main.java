@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
        //task1();
-        task4();
+        task5();
     }
 
     public static void task1 () {
@@ -65,5 +65,16 @@ public class Main {
         System.out.println("friend_3 -> " + friend);
     }
 
+    public static void task5 () {
+        System.out.println("Задача 5");
+        var frog = 3.5;
+        System.out.println("frog_1 -> " + frog);
+        frog = frog * 10 ;
+        System.out.println("frog_2 -> " + frog);
+        frog = frog / 3.5 ;
+        System.out.println("frog_3 -> " + frog);
+        frog = frog + 4 ;
+        System.out.println("frog_4 -> " + frog);
+    }
 
 }
