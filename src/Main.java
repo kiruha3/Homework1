@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        task1();
+       //task1();
         task2();
     }
 
@@ -21,13 +21,15 @@ public class Main {
         System.out.println("dog -> " + dog);
         System.out.println("cat -> " + cat);
         System.out.println("paper -> " + paper);
-        dog = dog + 2;
-        cat = cat +2 ;
-        paper = paper + 2;
-        System.out.println("change paranmetrs ");
+        dog = dog + 4;
+        cat = cat + 4 ;
+        paper = paper + 4;
+        System.out.println("change paranmetrs + 4");
         System.out.println("dog -> " + dog);
         System.out.println("cat -> " + cat);
         System.out.println("paper -> " + paper);
     }
+
+
 
 }
