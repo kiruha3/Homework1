@@ -5,8 +5,8 @@ public class Main {
 //        task3();
 //        task4();
 //        task5();
-        task6();
-//        task7();
+//        task6();
+        task7();
 //        task8();
     }
 
@@ -82,4 +82,15 @@ public class Main {
         float mixKilo = mix / 1000;
         System.out.println("Спортивный завтрак в киллограммах -> "+ mixKilo);
     }
+    public static void task7 () {
+        System.out.println("Задача 7");
+        int needKilo = 7;
+        float minWeight = 250;
+        float maxWeight = 500;
+        float dayIfMinWeight = (needKilo * 1000) / minWeight;
+        float dayIfMaxWeight = (needKilo * 1000) / maxWeight;
+        float midCountDay = (dayIfMinWeight + dayIfMaxWeight) / 2;
+        System.out.println("Для достижения цели может потребуется количество дней в среднем -> "+ midCountDay);
+    }
+
 }
