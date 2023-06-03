@@ -6,8 +6,8 @@ public class Main {
 //        task4();
 //        task5();
 //        task6();
-        task7();
-//        task8();
+//        task7();
+        task8();
     }
 
     public static void task1 () {
@@ -47,8 +47,8 @@ public class Main {
         byte ekaterinaAndreevna = 30;
         byte annaSergeyevna = 27;
         byte ludmilaPavlova = 23;
-        float packPaper = 480;
-        float result = packPaper / (ekaterinaAndreevna + annaSergeyevna + ludmilaPavlova);
+        int packPaper = 480;
+        float result = (float) packPaper / (ekaterinaAndreevna + annaSergeyevna + ludmilaPavlova);
         System.out.println("На каждого ученика рассчитано "+ result +" листов бумаги");
     }
     public static void task4 () {
@@ -79,18 +79,34 @@ public class Main {
         int bricketPlombir = 100;
         int eggs = 70;
         float mix = 5 * kalPerBanana + ( milil100Milk / 100 * 200 ) + (2 * bricketPlombir) + (4 * eggs);
-        float mixKilo = mix / 1000;
+        int grPerKg = 1000;
+        float mixKilo = mix / grPerKg;
         System.out.println("Спортивный завтрак в киллограммах -> "+ mixKilo);
     }
     public static void task7 () {
         System.out.println("Задача 7");
         int needKilo = 7;
-        float minWeight = 250;
-        float maxWeight = 500;
-        float dayIfMinWeight = (needKilo * 1000) / minWeight;
-        float dayIfMaxWeight = (needKilo * 1000) / maxWeight;
+        int minWeight = 250;
+        int maxWeight = 500;
+        float dayIfMinWeight = (float) (needKilo * 1000) / minWeight;
+        float dayIfMaxWeight = (float) (needKilo * 1000) / maxWeight;
         float midCountDay = (dayIfMinWeight + dayIfMaxWeight) / 2;
         System.out.println("Для достижения цели может потребуется количество дней в среднем -> "+ midCountDay);
     }
-
+    public static void task8 () {
+        System.out.println("Задача 8");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        float percentUp = 1.1f;
+        float mashaUp = masha * percentUp;
+        float denisUp = denis * percentUp;
+        float kristinaUp = kristina * percentUp;
+        float differenceBetweenZpMasha = mashaUp * 12 - masha * 12;
+        float differenceBetweenZpDenis = denisUp * 12 - denis * 12;
+        float differenceBetweenZpKristina = kristinaUp * 12 - kristina * 12;
+        System.out.println("Маша теперь получает " + mashaUp + " рублей. Годовой доход вырос на " + differenceBetweenZpMasha + " рублей");
+        System.out.println("Маша теперь получает " + denisUp + " рублей. Годовой доход вырос на " + differenceBetweenZpDenis + " рублей");
+        System.out.println("Маша теперь получает " + kristinaUp + " рублей. Годовой доход вырос на " + differenceBetweenZpKristina + " рублей");
+    }
 }
