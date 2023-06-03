@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        task1();
-//        task2();
+//        task1();
+        task2();
 //        task3();
 //        task4();
 //        task5();
@@ -24,7 +24,23 @@ public class Main {
         System.out.println("Значение переменной firstLong с типом long равно "+ firstLong);
         System.out.println("Значение переменной firstFloat  с типом float равно "+ firstFloat);
         System.out.println("Значение переменной firstDouble с типом double равно "+ firstDouble);
-
+    }
+    public static void task2 () {
+        System.out.println("Задача 2");
+        int firstInt = 27897;
+        byte firstByte = 67;
+        short firstShort = 569;
+        short secondShort = -159;
+        long firstLong = 987678965549L;
+        float firstFloat = 2.786f;
+        float secondFloat = 27.12f;
+        System.out.println("Значение переменной firstInt с типом int равно "+ firstInt);
+        System.out.println("Значение переменной firstByte с типом byte равно "+ firstByte);
+        System.out.println("Значение переменной firstShort  с типом short равно "+ firstShort);
+        System.out.println("Значение переменной secondShort  с типом short равно "+ secondShort);
+        System.out.println("Значение переменной firstLong с типом long равно "+ firstLong);
+        System.out.println("Значение переменной firstFloat  с типом float равно "+ firstFloat);
+        System.out.println("Значение переменной secondFloat с типом double равно "+ secondFloat);
     }
 
 }
