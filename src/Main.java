@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 //        task1();
-        task2();
-//        task3();
+//        task2();
+        task3();
 //        task4();
 //        task5();
 //        task6();
@@ -42,5 +42,13 @@ public class Main {
         System.out.println("Значение переменной firstFloat  с типом float равно "+ firstFloat);
         System.out.println("Значение переменной secondFloat с типом double равно "+ secondFloat);
     }
-
+    public static void task3 () {
+        System.out.println("Задача 2");
+        byte ekaterinaAndreevna = 30;
+        byte annaSergeyevna = 27;
+        byte ludmilaPavlova = 23;
+        short packPaper = 480;
+        float result = packPaper / (ekaterinaAndreevna + annaSergeyevna + ludmilaPavlova);
+        System.out.println("На каждого ученика рассчитано "+ result +" листов бумаги");
+    }
 }
