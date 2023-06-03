@@ -88,10 +88,14 @@ public class Main {
         int needKilo = 7;
         int minWeight = 250;
         int maxWeight = 500;
-        float dayIfMinWeight = (float) (needKilo * 1000) / minWeight;
-        float dayIfMaxWeight = (float) (needKilo * 1000) / maxWeight;
-        float midCountDay = (dayIfMinWeight + dayIfMaxWeight) / 2;
-        System.out.println("Для достижения цели может потребуется количество дней в среднем -> "+ midCountDay);
+        int midWeight = (minWeight + maxWeight) / 2;
+        int grInKG = 1000;
+        float dayIfMinWeight = (float) (needKilo * grInKG) / minWeight;
+        float dayIfMaxWeight = (float) (needKilo * grInKG) / maxWeight;
+        float dayIfMidWeight = (float) (needKilo * grInKG) / midWeight;
+        System.out.printf("Для достижения цели может потребуется количество дней в среднем ->%.2f%n",dayIfMidWeight);
+        System.out.println("Для достижения цели может потребуется мин количество дней -> "+ dayIfMinWeight);
+        System.out.println("Для достижения цели может потребуется макс количество дней -> "+ dayIfMaxWeight);
     }
     public static void task8 () {
         System.out.println("Задача 8");
