@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
 //        task1();
 //        task2();
-        task3();
-//        task4();
+//        task3();
+        task4();
 //        task5();
 //        task6();
 //        task7();
@@ -43,12 +43,27 @@ public class Main {
         System.out.println("Значение переменной secondFloat с типом double равно "+ secondFloat);
     }
     public static void task3 () {
-        System.out.println("Задача 2");
+        System.out.println("Задача 3");
         byte ekaterinaAndreevna = 30;
         byte annaSergeyevna = 27;
         byte ludmilaPavlova = 23;
-        short packPaper = 480;
+        float packPaper = 480;
         float result = packPaper / (ekaterinaAndreevna + annaSergeyevna + ludmilaPavlova);
         System.out.println("На каждого ученика рассчитано "+ result +" листов бумаги");
+    }
+    public static void task4 () {
+        System.out.println("Задача 4");
+        int efficiencyPerTwoMin = 16;
+        int efficiencyPerOneMin = efficiencyPerTwoMin / 2;
+        int efficiencyPerTwentyMin = efficiencyPerOneMin * 20;
+        int efficiencyPerDay = efficiencyPerOneMin * ( 60 * 24 );
+        int efficiencyPer3Day = efficiencyPerDay * 3;
+        int efficiencyPerMonth = efficiencyPerDay * 30;
+        System.out.println("За 20 минут машина произвела " + efficiencyPerTwentyMin + " штук бутылок");
+        System.out.println("За сутки машина произвела " + efficiencyPerDay + " штук бутылок");
+        System.out.println("За три дня машина произвела " + efficiencyPer3Day + " штук бутылок");
+        System.out.println("За месяц машина произвела " + efficiencyPerMonth + " штук бутылок");
+
+
     }
 }
