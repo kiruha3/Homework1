@@ -4,8 +4,8 @@ public class Main {
 //        task2();
 //        task3();
 //        task4();
-        task5();
-//        task6();
+//        task5();
+        task6();
 //        task7();
 //        task8();
     }
@@ -71,5 +71,15 @@ public class Main {
         int whiteCan = 2 * countRoom;
         int brownCan = 4 * countRoom;
         System.out.println("В школе, где "+ allCan +" классов, нужно " + whiteCan + " банок белой краски и " + brownCan + " банок коричневой краски");
+    }
+    public static void task6 () {
+        System.out.println("Задача 6");
+        int kalPerBanana = 80;
+        float milil100Milk = 105;
+        int bricketPlombir = 100;
+        int eggs = 70;
+        float mix = 5 * kalPerBanana + ( milil100Milk / 100 * 200 ) + (2 * bricketPlombir) + (4 * eggs);
+        float mixKilo = mix / 1000;
+        System.out.println("Спортивный завтрак в киллограммах -> "+ mixKilo);
     }
 }
