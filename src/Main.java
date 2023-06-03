@@ -3,8 +3,8 @@ public class Main {
 //        task1();
 //        task2();
 //        task3();
-        task4();
-//        task5();
+//        task4();
+        task5();
 //        task6();
 //        task7();
 //        task8();
@@ -63,7 +63,13 @@ public class Main {
         System.out.println("За сутки машина произвела " + efficiencyPerDay + " штук бутылок");
         System.out.println("За три дня машина произвела " + efficiencyPer3Day + " штук бутылок");
         System.out.println("За месяц машина произвела " + efficiencyPerMonth + " штук бутылок");
-
-
+    }
+    public static void task5 () {
+        System.out.println("Задача 5");
+        int allCan = 120;
+        int countRoom = 120 / (2+4) ;
+        int whiteCan = 2 * countRoom;
+        int brownCan = 4 * countRoom;
+        System.out.println("В школе, где "+ allCan +" классов, нужно " + whiteCan + " банок белой краски и " + brownCan + " банок коричневой краски");
     }
 }
